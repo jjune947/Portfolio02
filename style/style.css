@@ -355,6 +355,13 @@ h3.hello span {
   color: var(--skin-color);
 }
 
+.highlight-font {
+  font-family: "BiCute Round", sans-serif;
+  color: var(--skin-color);
+  font-weight: 700;
+  /* You can adjust font-size here if needed, but inheriting from h3.hello is a good start */
+}
+
 h3.my-profession {
   font-size: 3rem;
   margin: 15px 0;
